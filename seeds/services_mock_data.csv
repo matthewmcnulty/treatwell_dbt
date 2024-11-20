@@ -1,0 +1,173 @@
+service_id,salon_id,name,description,treatment_type,leadtimeminutes,multioptionselectionallowed,updated,package,minimumclientage,currency_code,service_price,discount_percentage
+8519,3563,Natural Thai Facial,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,Facial,60,FALSE,2021-07-07T11:51:14.770907Z,FALSE,16,EUR,19.63,0.25
+8492,2407,CACI Facial Treatment,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",Facial,60,TRUE,2021-07-07T11:51:14.776017Z,TRUE,16,EUR,5.72,
+8557,1389,Elemis Cooling Hot Stone Body Facial,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",Facial,90,FALSE,2021-07-07T11:51:14.828948Z,TRUE,4,EUR,3.51,0.5
+8566,1290,Elemis CoolingHot Stone Body Facial,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",Facial,360,FALSE,2021-07-07T11:51:14.862222Z,TRUE,12,EUR,6.58,
+8563,1446,Haircut and Set,"Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",Hair,90,TRUE,2021-07-07T11:51:14.908592Z,TRUE,4,EUR,62.56,0.2
+8502,1999,Haircuts and Hairdressing,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",Hair,360,TRUE,2021-07-07T11:51:15.019231Z,FALSE,,EUR,13.42,0.25
+8562,3655,Men's Haircut,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",Hair,60,TRUE,2021-07-07T11:51:15.020199Z,FALSE,,EUR,87.02,
+8564,811,Restyle Shampoo & Haircut,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",Hair,360,TRUE,2021-07-07T11:51:15.023566Z,TRUE,,EUR,38.56,0.15
+8554,1401,Haircuts and Hairdressing,"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",Hair,90,FALSE,2021-07-07T11:51:15.027593Z,TRUE,18,GBP,40.5,0.5
+8493,1650,Ladies' Haircut & Blow Dry,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",Hair,90,TRUE,2021-07-07T11:51:18.062581Z,TRUE,16,GBP,67.03,
+8484,3248,"Ladies' Wash, Haircut & Blow Dry","Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",Hair,60,FALSE,2021-07-07T11:51:18.121779Z,FALSE,18,EUR,99.14,0.25
+8498,3313,Crystal Clear Hand Rejuvenation,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",Manicure,60,TRUE,2021-07-07T11:51:18.216913Z,FALSE,,CHF,68.15,0.1
+8459,1265,Manicure Treatments,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.,Manicure,60,TRUE,2021-07-07T11:51:18.246852Z,TRUE,18,EUR,37.57,0.5
+8516,965,Luxury Runway Manicure,Phasellus in felis. Donec semper sapien a libero. Nam dui.,Manicure,360,TRUE,2021-07-07T11:51:18.266409Z,TRUE,18,EUR,85.34,
+8521,1584,Gel Overlay Manicure,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",Manicure,360,FALSE,2021-07-07T11:51:18.279032Z,FALSE,,EUR,11.75,
+8520,2684,Manicure,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",Manicure,90,FALSE,2021-07-07T11:51:18.317315Z,TRUE,,EUR,35.71,0.1
+8501,1370,Mini Manicure or Pedicure,"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",Manicure,90,FALSE,2021-07-07T11:51:18.325592Z,TRUE,18,EUR,71.35,0.7
+8523,1224,Deluxe Manicure,"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",Manicure,360,FALSE,2021-07-07T11:51:18.338515Z,FALSE,12,EUR,25.03,0.2
+8467,1955,Mini Manicure,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",Manicure,90,TRUE,2021-07-07T11:51:18.342398Z,FALSE,16,EUR,35.64,0.1
+8499,1511,Deluxe,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",Manicure,360,FALSE,2021-07-07T11:51:18.392370Z,TRUE,,EUR,58.26,0.1
+8544,611,Deluxe Manicure,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",Manicure,60,FALSE,2021-07-07T11:51:18.396967Z,TRUE,4,EUR,5.56,
+8571,2185,Prescriptive Manicure,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",Manicure,60,TRUE,2021-07-07T11:51:18.401994Z,TRUE,,EUR,84.15,0.5
+8568,511,Manicure,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",Manicure,360,TRUE,2021-07-07T11:51:18.407218Z,FALSE,,EUR,31.64,0.25
+8569,1004,Manicure Treatments,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",Manicure,90,FALSE,2021-07-07T11:51:18.438813Z,TRUE,,EUR,7.3,
+8442,2605,Deep tissue muscle massage,"In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",Massage,90,TRUE,2021-07-07T11:51:18.445304Z,TRUE,18,EUR,88.91,0.1
+8517,133,Elemis Freestyle Massage,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",Massage,60,FALSE,2021-07-07T11:51:21.439521Z,FALSE,,EUR,86.25,0.25
+8486,1710,"Clarins Energising Back,Neck and Scalp Massage","Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",Massage,60,FALSE,2021-07-07T11:51:21.533387Z,TRUE,16,EUR,75.58,0.15
+8457,2416,Elemis Peaceful Pregnancy Massage,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,Massage,60,TRUE,2021-07-07T11:51:21.548050Z,FALSE,4,EUR,78.15,0.1
+8565,3855,Clarins Mens Muscle Ease Body Massage,"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",Massage,60,TRUE,2021-07-07T11:51:21.556309Z,FALSE,,EUR,89.92,0.2
+8504,1914,Decleor AromaMassage,"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",Massage,360,FALSE,2021-07-07T11:51:21.726178Z,FALSE,12,EUR,79.82,0.2
+8558,680,Massage Therapies,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",Massage,360,TRUE,2021-07-07T11:51:21.784826Z,TRUE,18,EUR,88.68,0.2
+8560,1137,Therapeutic Massage Chair,"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",Massage,60,FALSE,2021-07-07T11:51:21.785183Z,FALSE,,EUR,88.11,0.2
+8458,1251,Body Exfoliation Treatment & Luxury Spa Predicure,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",Pedicure,360,FALSE,2021-07-07T11:51:21.945136Z,TRUE,16,EUR,25.09,
+8525,3013,Express Predicure,"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",Pedicure,60,FALSE,2021-07-07T11:51:22.011727Z,FALSE,12,EUR,69.33,0.5
+8530,1745,Predicure with Paraffin Wax Treatment,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.,Pedicure,90,TRUE,2021-07-07T11:51:22.019068Z,TRUE,,EUR,66.74,
+8531,2112,The Perfect Predicure,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",Pedicure,90,TRUE,2021-07-07T11:51:22.026372Z,FALSE,,EUR,2.5,0.15
+8497,2004,Express Predicure,"Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",Pedicure,360,TRUE,2021-07-07T11:51:25.142029Z,FALSE,,EUR,98.48,0.2
+8552,3248,The Perfect Predicure,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",Pedicure,60,FALSE,2021-07-07T11:51:25.142143Z,TRUE,,EUR,56.07,0.25
+8543,1758,Pedicure,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",Pedicure,360,TRUE,2021-07-07T11:51:25.148952Z,FALSE,,EUR,93.74,0.2
+8515,2441,Waxing,"Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",Waxing,90,FALSE,2021-07-07T11:51:25.150870Z,TRUE,18,EUR,48.98,0.7
+8522,3451,Lycon Waxing,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",Waxing,360,FALSE,2021-07-07T11:51:25.187298Z,FALSE,12,EUR,67.67,0.5
+8527,3916,Waxing,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",Waxing,90,FALSE,2021-07-07T11:51:25.191413Z,TRUE,,EUR,35.64,0.2
+8526,2575,Waxing - Bikini,"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",Waxing,360,FALSE,2021-07-07T11:51:25.204072Z,FALSE,18,EUR,56.94,
+8532,1007,Full Leg Waxing,"Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",Waxing,90,FALSE,2021-07-07T11:51:25.226118Z,FALSE,16,EUR,82.08,0.15
+8462,3014,Men's Waxing,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",Waxing,60,FALSE,2021-07-07T11:51:25.315720Z,FALSE,,EUR,72.73,0.5
+8534,3121,Waxing,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",Waxing,90,FALSE,2021-07-07T11:51:25.405411Z,FALSE,18,EUR,13.23,0.7
+8490,1973,Male Body Waxing,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,Waxing,360,TRUE,2021-07-07T11:51:25.409511Z,FALSE,,EUR,44.73,0.1
+8555,3682,Lycon Premium Waxing,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",Waxing,360,FALSE,2021-07-07T11:51:25.522306Z,TRUE,18,EUR,91.34,0.1
+8559,2991,Deluxe,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",Waxing,60,TRUE,2021-07-07T11:51:25.543681Z,FALSE,,EUR,97.23,0.2
+8550,2102,Express,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",Waxing,90,TRUE,2021-07-07T11:51:28.412992Z,TRUE,,EUR,98.15,

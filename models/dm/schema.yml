@@ -1,0 +1,402 @@
+version: 2
+
+models:
+  - name: fact_bookings
+    description: "This table contains detailed booking information along with booking-related attributes such as customer, service, and pricing details."
+    columns:
+      - name: booking_id
+        description: "Unique identifier for each booking."
+        data_tests:
+          - not_null
+          
+      - name: customer_id
+        description: "Unique identifier for the customer who made the booking."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customer')
+              field: customer_id
+          
+      - name: employee_id
+        description: "Unique identifier for the employee responsible for the booking."
+        data_tests:
+          - relationships:
+              to: ref('dim_employee')
+              field: employee_id
+          
+      - name: service_id
+        description: "Unique identifier for the service provided in the booking."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_services')
+              field: service_id
+          
+      - name: salon_id
+        description: "Unique identifier for the salon where the booking takes place."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_salon')
+              field: salon_id
+          
+      - name: country_code
+        description: "Two-letter ISO country code."
+        data_tests:
+          - not_null
+          
+      - name: reschedule_cutoff
+        description: "Cutoff time for rescheduling the booking."
+        data_tests:
+          - not_null
+
+      - name: cancellation_cutoff
+        description: "Cutoff time for cancelling the booking."
+        data_tests:
+          - not_null
+
+      - name: booking_date
+        description: "Date of the booking, represented in YYYYMMDD format."
+        data_tests:
+          - not_null
+          
+      - name: start_time
+        description: "Start time of the booking."
+        data_tests:
+          - not_null
+          
+      - name: treatment_duration_minutes
+        description: "Duration of the treatment in minutes."
+        data_tests:
+          - not_null
+          
+      - name: venue_timezone
+        description: "Timezone of the venue where the service is provided."
+        data_tests:
+          - not_null
+          
+      - name: booked_price
+        description: "Price at which the booking was made."
+        data_tests:
+          - not_null
+          
+      - name: currency_code
+        description: "Currency code used for the booking price."
+        data_tests:
+          - not_null
+          
+      - name: booking_status
+        description: "Current status of the booking (e.g., confirmed, cancelled)."
+        data_tests:
+          - not_null
+          
+      - name: created_date_key
+        description: "Key representing the creation date in YYYYMMDD format."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+          
+      - name: created_date
+        description: "Timestamp when the booking was created."
+        data_tests:
+          - not_null
+          
+      - name: updated_date
+        description: "Timestamp when the booking was last updated."
+
+  - name: dim_customer
+    description: "This dimension table contains customer details including personal information, contact details, and preferences."
+    columns:
+      - name: customer_id
+        description: "Unique identifier for the customer."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: first_name
+        description: "First name of the customer."
+        data_tests:
+          - not_null
+
+      - name: last_name
+        description: "Last name of the customer."
+        data_tests:
+          - not_null
+
+      - name: email
+        description: "Email address of the customer."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: gender
+        description: "Gender of the customer (e.g., Male, Female, Non-binary)."
+        data_tests:
+          - accepted_values:
+              values: ['Male', 'Female', 'Non-binary', 'Other', 'Prefer not to say']
+
+      - name: ip_address
+        description: "Last known IP address of the customer."
+        data_tests:
+          - not_null
+
+      - name: country_code
+        description: "Two-letter ISO code representing the customer's country."
+        data_tests:
+          - not_null
+
+      - name: marketing_consent
+        description: "Indicates whether the customer has given consent for marketing communications."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [true, false]
+
+      - name: phone_number
+        description: "Phone number of the customer."
+        data_tests:
+          - not_null
+
+      - name: clothing_size
+        description: "Clothing size preference of the customer."
+        data_tests:
+          - not_null
+
+      - name: created_date
+        description: "Timestamp of when the customer record was created."
+        data_tests:
+          - not_null
+
+      - name: updated_date
+        description: "Timestamp of the last update to the customer record."
+
+  - name: dim_employee
+    description: "This dimension table contains details about employees, including their roles, services provided, and activity status."
+    columns:
+      - name: employee_id
+        description: "Unique identifier for the employee."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: salon_id
+        description: "Identifier linking the employee to their associated salon."
+        data_tests:
+          - not_null
+
+      - name: employee_name
+        description: "Name of the employee."
+        data_tests:
+          - not_null
+
+      - name: job_title
+        description: "Job title of the employee."
+        data_tests:
+          - not_null
+
+      - name: provided_services
+        description: "Array of services the employee is capable of providing."
+        data_tests:
+          - not_null
+
+      - name: notes
+        description: "Additional notes or remarks about the employee."
+
+      - name: active
+        description: "Indicates whether the employee is currently active. (true/false)"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [true, false]
+
+      - name: employee_image_id
+        description: "Identifier for the employee's profile image."
+        data_tests:
+          - not_null
+
+      - name: updated_date
+        description: "Timestamp of the last update to the employee's record."
+
+  - name: dim_salon
+    description: "This dimension table contains details about salons, including their location, contact information, and operating policies."
+    columns:
+      - name: salon_id
+        description: "Unique identifier for the salon."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: salon_name
+        description: "The name of the salon."
+        data_tests:
+          - not_null
+
+      - name: salon_status
+        description: "Operational status of the salon (e.g., open, closed)."
+        data_tests:
+          - not_null
+
+      - name: salon_channel
+        description: "Channel through which the salon operates (e.g., online, in-person)."
+        data_tests:
+          - not_null
+
+      - name: description
+        description: "A brief description of the salon."
+        data_tests:
+          - not_null
+
+      - name: url
+        description: "Website URL for the salon."
+        data_tests:
+          - not_null
+
+      - name: venue_type_id
+        description: "Identifier for the type of venue the salon represents."
+        data_tests:
+          - not_null
+
+      - name: venue_sub_type_ids
+        description: "Array of identifiers for the subtypes of the salon venue."
+        data_tests:
+          - not_null
+
+      - name: phone_number
+        description: "Contact phone number for the salon."
+        data_tests:
+          - not_null
+
+      - name: email
+        description: "Contact email address for the salon."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: customer_service_email
+        description: "Email address for customer service inquiries."
+        data_tests:
+          - not_null
+
+      - name: employee_selection_allowed
+        description: "Indicates whether customers can choose a specific employee for their appointment."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [true, false]
+
+      - name: max_availability_period_days
+        description: "Maximum number of days for which appointments can be booked in advance."
+        data_tests:
+          - not_null
+
+      - name: country_code
+        description: "Two-letter ISO country code representing the salon's location."
+        data_tests:
+          - not_null
+
+      - name: created_date
+        description: "The date when the salon record was created."
+        data_tests:
+          - not_null
+
+      - name: updated_date
+        description: "The most recent date when the salon record was updated."
+
+  - name: dim_services
+    description: "This dimension table contains information about services offered, including pricing, treatment types, and eligibility requirements."
+    columns:
+      - name: service_id
+        description: "Unique identifier for the service."
+        data_tests:
+          - unique
+          - not_null
+          
+      - name: salon_id
+        description: "Unique identifier for the salon offering the service."
+        data_tests:
+          - not_null
+          
+      - name: service_name
+        description: "Name of the service."
+        data_tests:
+          - not_null
+          
+      - name: description
+        description: "Description of the service."
+        
+      - name: treatment_type
+        description: "Type of treatment associated with the service (e.g., haircut, massage)."
+        data_tests:
+          - not_null
+          
+      - name: lead_time_minutes
+        description: "Lead time required for the service, in minutes."
+        data_tests:
+          - not_null
+
+      - name: multi_option_selection_allowed
+        description: "Indicates whether multiple options can be selected for this service."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [true, false]
+              
+      - name: package_only
+        description: "Indicates if the service is offered as part of a package only."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [true, false]
+          
+      - name: minimum_client_age
+        description: "Minimum client age required for the service."
+          
+      - name: currency_code
+        description: "Three-letter ISO code for the currency used for service pricing."
+        data_tests:
+          - not_null
+          
+      - name: service_price
+        description: "Price of the service in the specified currency."
+        data_tests:
+          - not_null
+          
+      - name: discount_percentage
+        description: "Discount percentage applied to the service price, if any."
+          
+      - name: updated_date
+        description: "Timestamp of the last update to the service record."
+
+  - name: dim_country
+    description: "This table contains the details of European countries including their country codes and currency information."
+    columns:
+      - name: country_key
+        description: "Unique identifier for each country."
+      - name: country_code
+        description: "Two-letter ISO country code (e.g., 'GB' for United Kingdom, 'DE' for Germany)."
+      - name: country
+        description: "Full name of the country (e.g., 'Germany', 'France')."
+      - name: currency_code
+        description: "Three-letter ISO currency code (e.g., 'EUR' for Euro, 'GBP' for Pound Sterling)."
+      - name: currency
+        description: "Full name of the currency (e.g., 'Euro', 'Pound Sterling')."
+        
+  - name: dim_date
+    description: "This table contains a range of date-related information, from 2015 to 2035, including day, month, quarter, and year details."
+    columns:
+      - name: date_key
+        description: "Unique date identifier in yyyymmdd format (e.g., '20240101' for January 1, 2024)."
+      - name: date
+        description: "The actual date in yyyy-mm-dd format."
+      - name: day_of_week
+        description: "The day of the week (1=Monday, 7=Sunday)."
+      - name: month
+        description: "The month number (1=January, 12=December)."
+      - name: quarter
+        description: "The fiscal quarter of the year (1, 2, 3, or 4)."
+      - name: year
+        description: "The year of the date."
+      - name: is_weekend
+        description: "Indicates whether the day is a weekend (TRUE if Saturday or Sunday, FALSE otherwise)."

@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  # Bookings Model
+  - name: stg_bookings
+    description: "Table containing all the booking information"
+
+  # Customers Model
+  - name: stg_customer
+    description: "Table containing customer information"
+
+  # Employees Model
+  - name: stg_employee
+    description: "Table containing employee information"
+
+  # Salons Model
+  - name: stg_salon
+    description: "Table containing salon information"
+        
+  # Services Model
+  - name: stg_services
+    description: "Table containing service information offered by the salon"

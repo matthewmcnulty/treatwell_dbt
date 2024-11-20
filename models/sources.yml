@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: treatwell
+    schema: public  # Specify the schema as 'public'
+    tables:
+      - name: bookings_mock_data
+        description: "Raw data for bookings"
+      - name: customer_mock_data
+        description: "Raw data for customers"
+      - name: employee_mock_data
+        description: "Raw data for employees"
+      - name: salon_mock_data
+        description: "Raw data for salons"
+      - name: services_mock_data
+        description: "Raw data for services"
